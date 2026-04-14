@@ -1,0 +1,123 @@
+/* Sintaxe básica: */
+seletor {
+    propriedade: valor;
+}
+
+/* Exemplo: */
+
+h1 {
+    color: red;
+}
+
+/* O seletor pode receber múltiplas propriedades: */
+
+h1 {
+    color: red;
+    font-size: 32px;
+}
+
+/* Formas de incluir CSS: */
+
+/* 1. CSS Inline: */
+
+/* O estilo é aplicado diretamente no elemento HTML. */
+
+/* <p style="...">...</p> */
+
+/* Não recomendado usar inline, pois mistura conteúdo e estilo, dificultando manutenção. */
+
+/* 2. CSS Interno: */
+
+/* O estilo é definido dentro de uma tag <style> no cabeçalho do documento HTML. */
+
+/*
+<style>
+    Regras CSS aqui
+</style>
+/*
+
+
+/* Útil para estilos específicos de uma página, mas pode tornar o HTML mais pesado.
+   Não é muito recomendado pois dificulta a manutenção e reutilização do código.
+*/
+
+/* 3. CSS Externo: */
+
+/* O estilo é definido em um arquivo separado com extensão .css, que é vinculado ao documento HTML. */
+
+/* <link rel="stylesheet" href="estilos.css"> */
+
+/* O CSS externo é a forma mais recomendada, pois mantém o conteúdo e o estilo separados, facilitando a manutenção e reutilização do código. */
+
+/* Seletores de elemento */
+
+/* HTML: */
+
+/* <p>Parágrafo</p> */
+
+/* CSS: */
+p {
+
+}
+
+/* O seletor de elemento seleciona todos os elementos do tipo especificado (neste caso, todos os parágrafos). */
+
+/* Seletores de classe */
+
+/* HTML: */
+
+/* <p class="destaque">Parágrafo em destaque</p> */
+
+/* CSS: */
+.destaque {
+
+}
+
+/* O seletor de classe seleciona todos os elementos que possuem a classe especificada (neste caso, todos os parágrafos com a classe "destaque"). */
+
+/* Seletores de ID */
+
+/* HTML: */
+
+/* <p id="titulo">Título do parágrafo</p> */
+
+/* CSS: */
+#titulo {
+    
+}
+
+/* O seletor de ID seleciona o elemento que possui o ID especificado (neste caso, o parágrafo com o ID "titulo").
+   Deve ser usado apenas para um elemento único na página, pois IDs devem ser únicos.
+*/
+
+/* Tipos de Fonts */
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Formata o estilo da fonte do texto. */
+
+p {
+    font-size: 16px;
+}
+
+/* Define o tamanho da fonte. */
+
+p {
+    font-style: italic;
+}
+
+/* Deixa o texto em itálico. */
+
+p {
+    font-variant: small-caps;
+}
+
+/* Define como o texto é exibido, neste caso, em maiúsculas pequenas. */
+
+p {
+    font-weight: bold;
+}
+
+/* Define a espessura da fonte, neste caso, negrito. */

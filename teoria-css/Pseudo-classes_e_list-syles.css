@@ -1,0 +1,41 @@
+/* Pseudo-classes em Links */
+
+/* Sintaxe: */
+
+a:link {
+    /* Estilos para links não visitados */
+}
+
+a:visited {
+    /* Estilos para links visitados */
+}
+
+a:hover {
+    /* Estilos para links quando o mouse passa por cima */
+}
+
+a:active {
+    /* Estilos para links quando estão sendo clicados */
+}
+
+/* List-styles */
+
+/* Sintaxe: */
+
+ul {
+    list-style-type: tipo;
+    list-style-position: posição;
+    list-style-image: url(imagem);
+}
+
+/* list-style-type: Define o tipo de marcador para listas não ordenadas (ul) ou o tipo de numeração para listas ordenadas (ol). 
+Exemplos: disc, circle, square, decimal, lower-alpha, upper-alpha, etc. 
+*/
+
+/* list-style-position: Define a posição do marcador em relação ao conteúdo da lista.
+Valores: outside (padrão) ou inside. 
+*/
+
+/* list-style-image: Permite usar uma imagem personalizada como marcador para itens de lista. 
+Exemplo: url('marcador.png'). 
+*/
