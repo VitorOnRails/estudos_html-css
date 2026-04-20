@@ -99,6 +99,12 @@ main {
     color: white;
 }
 
+.section-cards a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
 .section-carreira {
     background-color: white;
     padding: 20px;
