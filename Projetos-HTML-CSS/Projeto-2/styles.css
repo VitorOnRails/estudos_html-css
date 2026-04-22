@@ -1,0 +1,162 @@
+body {
+    background-color: #CCCCCC;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 90%;
+    max-width: 1024px;
+    margin: 20px auto;
+}
+
+header {
+    height: 50px;
+    background-color: #868686;
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    max-height: 600px;
+}
+
+.titulo {
+    color: rgb(82, 77, 66);
+    padding: 5px 0 0 40px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    padding: 15px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #525250;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.menu a:hover {
+    color: #d8d7b9;
+    background-color: #868686;
+    transition: all 0.3s ease;
+}
+
+#sobre {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+#sobre h2 {
+    font-size: 36px;
+    color: rgb(82, 77, 66);
+}
+
+#sobre p {
+    line-height: 2;
+    font-size: 16px;
+    color: rgb(61, 58, 52);
+}
+
+#produtos {
+    padding: 0 100px 50px 100px;
+    color: rgb(61, 58, 52);
+    overflow: auto;
+}
+
+.produtos-card {
+    width: 31.33%;
+    float: left;
+    text-align: center;
+    margin-right: 3%;
+}
+
+.produtos-card:last-child {
+    margin-right: 0;
+}
+
+.produtos-img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+}
+
+.produtos-titulo {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dilema {
+    background-color: #2C3E50;
+    padding: 100px;
+    color: #868686;
+    font-weight: 900;
+    background: linear-gradient(to right, rgba(44, 62, 80, 1) 20%, rgba(44, 62, 80, 0.8) 80%, rgba(44, 62, 80, 0)),
+    url(./images/ferragem-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dilema h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.dilema p {
+    line-height: 1.5;
+    width: 65%;
+    font-weight: 600;
+}
+
+#contato {
+    margin: 50px 0;
+}
+
+#contato address {
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+}
+
+.maps {
+    margin-top: 20px;
+    width: 100%;
+    height: 450px;
+}
+
+.maps iframe {
+    width: 100%;
+}
+
+.rodapé {
+    text-align: center;
+    font-style: italic;
+    background-color: #143f52;
+    color: #d8d7b9;
+    padding: 25px;
+    font-size: 12px;
+}
