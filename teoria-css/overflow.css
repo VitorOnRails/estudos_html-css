@@ -1,0 +1,27 @@
+/* A propriedade Overflow serve para tratar o conteúdo que excede em tamanho o elemento /*
+
+/* Os valores possíveis são: */
+
+h1 {
+    overflow: visible;
+}
+
+/* valor padrão. */
+
+h2 {
+    overflow: hidden;
+}
+
+/* O conteúdo que sobra é cortado e fica invisível. Não há barras de rolagem. */
+
+h3 {
+    overflow: scroll;
+}
+
+/* O conteúdo é cortado, mas o navegador adiciona barras de rolagem (mesmo se o conteúdo couber). */
+
+h4 {
+    overflow: auto;
+}
+
+/* Parecido com o scroll, mas as barras de rolagem só aparecem se forem necessárias. */
