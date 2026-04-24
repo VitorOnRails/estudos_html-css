@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Vitor">
+    <meta name="description" content="Praticando tabelas.">
+    <title>Praticando HTML - Table</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        caption {
+            background-color: #76B900;
+        }
+
+        th {
+            color: #FFFFFF;
+            background-color: #000000;
+            border: 2px solid black;
+        }
+
+        td {
+            border: 2px solid black;
+            color: #FFFFFF;
+            background-color: #1A1A1A;
+        }
+
+        .modelo {
+            background-color: #518000;
+            color: #000000;
+            text-align: left;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+    <body>
+        <table>
+            <caption>Placas de Vídeo mais Potentes da Nvidia</caption>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Preço Médio</th>
+                    <th>Indicação de Uso</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Modelos baseados na nova arquitetura Blackwell da NVIDIA.</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td class="modelo">RTX 5090</td>
+                    <td>R$ 20.000+</td>
+                    <td>Uso Profissional ou Máximo desempenho em Jogos.</td>
+                </tr>
+                <tr>
+                    <td class="modelo">RTX 5080</td>
+                    <td>R$ 10.000</td>
+                    <td>Alta Performance e Versatilidade.</td>
+                </tr>
+                <tr>
+                    <td class="modelo">RTX 5070</td>
+                    <td>R$ 4.500</td>
+                    <td>Melhor Equilíbrio entre Desempenho e Preço no Mercado.</td>
+                </tr>
+                <tr>
+                    <td class="modelo">RTX 5060</td>
+                    <td>R$ 2.400</td>
+                    <td>A Melhor Porta de Entrada para a Nova Geração de Placas de Vídeo da Nvidia.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
