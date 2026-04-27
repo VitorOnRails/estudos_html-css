@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Vitor">
+    <meta name="description" content="Conhecendo Tipos de entrada de Dados em forms.">
+    <title>Tipos de Entrada de Dados. - HTML</title>
+</head>
+    <body>
+        <h1>Exemplo de formulario</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>Email</label>
+                <input type="email" placeholder="adicione um e-mail válido" required>
+                <br>
+
+
+                <label>Numero de Filhos</label>
+                <input type="number"  min="0" max="1000">
+                <br>
+
+                <label>Nascimento</label>
+                <input type="date" min="2026-04-27" max="2026-12-31">                
+                
+                <p>Sexo:</p>
+                <label>
+                    <input type="radio" name="sexo" value="M">Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="F">Feminino
+                </label>
+                <br>
+                <input type="hidden" name="expira" value="29/05/2026">
+
+                <label>Estado</label>
+                <select name="Estados">
+                    <option value="0">Selecione</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="PR">Paraná</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Áreas de interesse</legend>
+                <label><input type="checkbox" name="html" value="html">HTML</label>
+                <label><input type="checkbox" name="css" value="css">CSS</label>
+                <label><input type="checkbox" name="js" value="js">Javascript</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Mensagem</legend>
+                <textarea name="message" maxlength="20"></textarea>
+                <textarea name="contrato" readonly>Digite o contrato aqui.</textarea>
+                <label><input type="checkbox" checked>Aceito os Termos & Condições</label>
+                <input type="range" min="0" max="10" step="0.2">
+                <input type="time" value="">
+                <input type="color" value="">
+
+                <select size="3" multiple>
+                    <option>Opção 1</option>
+                    <option>Opção 2</option>
+                    <option>Opção 3</option>
+                    <option>Opção 4</option>
+                    <option>Opção 5</option>
+                </select>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            <input type="button" value="Botão">
+        </form>
+    </body>
+</html>
