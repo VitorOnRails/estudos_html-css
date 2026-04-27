@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Vitor">
+    <meta name="description" content="Estilizando um formulário de busca">
+    <title>Estilizando Form. - CSS</title>
+
+    <style>
+        .formLogin {
+            width: 250px;
+            margin: 50px auto 0;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        .formLogin label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        .formLogin fieldset {
+            background-color: #CCCCCC;
+        }
+
+        .formLogin legend {
+            background-color: azure;
+            padding: 5px;
+        }
+
+        #user, #password, .button {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            font-size: 20px;
+            border: none;
+        }
+
+        .button {
+            margin-top: 20px;
+        }
+
+        #user {
+            margin-bottom: 15px;
+        }
+
+        #user:focus, #password:focus {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+    <body>
+        <h1>Exemplo de formulario</h1>
+        <form action="#" method="post" class="formLogin">
+            <fieldset>
+                <legend>Login</legend>
+                <label for="user">Digite o seu nome</label>
+                <input type="text" id="user" name="user" autofocus>
+                <label for="password">Digite sua senha</label>
+                <input type="password" id="password" name="password">
+                <input type="submit" value="Entrar" class="button">
+            </fieldset>
+        </form>
+    </body>
+</html>
