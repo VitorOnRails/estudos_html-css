@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Vitor">
+    <meta name="description" content="Praticando Text-shadow">
+    <title>Praticando CSS - Text-shadow</title>
+    
+    <style>
+        #border-radius {
+            background-color: orange;
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+            border-radius: 50px 50% / 50% 50px;
+            box-shadow: -10px 10px 5px 3px black, 10px -10px 5px 3px gray;
+        }
+
+        h1 {
+            font-family: sans-serif;
+            font-size: 40px;
+            text-align: center;
+            text-shadow: -1px 1px 0 gray, -2px 2px 0 #727272, -3px 3px 0 #c5bfbf, -4px 4px 0 #b9b5b5;
+        }
+    </style>
+</head>
+    <body>
+        <h1>CSS Text-shadow</h1>
+
+        <div id="border-radius"></div>
+    </body>
+</html>
